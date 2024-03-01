@@ -7,10 +7,23 @@
     display: grid;
     grid-template-columns: 0.6fr repeat(3,1fr);
     grid-template-rows: 1fr 4fr;
+    position: relative;
+
 }
 .Navbar{
     grid-column: 1/2;
     grid-row: 1/span 2;
+    color: white;
+    background-color: blue;
+    position: sticky;
+    top: 0;
+    padding: 1.5rem 0 0 1rem;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: large;
+    align-items: start;
+    height: 100vh;
 }
 .Header{
     position: relative;
@@ -21,7 +34,10 @@
     gap: 1.5rem;
     background-color: white;
     padding: 2.5rem;
-
+}
+.Header p{
+    font-weight: bold;
+    font-size: large;
 }
 .Content_Area{
     grid-column: 2/4;
@@ -31,8 +47,9 @@
     gap: 3vh;
 }
 .Content_Area>p{
-    vertical-align: bottom;
     grid-column: 1/-1;
+    font-weight: bold;
+    font-size: large;
 }
 .Content_Area .cards{
     display: flex;
@@ -50,6 +67,10 @@
 .cards :nth-child(3){
     margin-top: 1rem;
     align-self: flex-end;
+}
+.cards :nth-child(1){
+    font-weight: bold;
+    font-size: large;
 }
 /* .cards span{   handled with 
     display: grid;
@@ -137,13 +158,6 @@ input:focus{
     display: inline-block;
     vertical-align: middle;
 }
-.Navbar{
-    position: relative;
-    top: 1.5rem;
-    padding: 0 0 0 1rem;
-    display: flex;
-    flex-direction: column;
-}
 .Nav_Home{
     margin-bottom: 2rem;
 }
@@ -167,6 +181,7 @@ input:focus{
 }
 .Notification_Area>p{
     font-weight: bold;
+    font-size: large;
     margin-bottom: 3vh;
     text-align: center;
     vertical-align: center;
