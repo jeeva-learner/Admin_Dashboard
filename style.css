@@ -34,6 +34,8 @@
     gap: 1.5rem;
     background-color: white;
     padding: 2.5rem;
+    box-shadow: 1vh 1vh rgb(128, 126, 126);
+    margin-bottom: 2vh;
 }
 .Header p{
     font-weight: bold;
@@ -59,6 +61,7 @@
     padding: 2vh;
     border-radius: 0.75vh;
     background-color: white;
+    box-shadow: 1.5vh 1.5vh rgb(128, 126, 126);
 }
 .cards img{
     display: inline-block;
