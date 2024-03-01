@@ -34,7 +34,7 @@
     gap: 1.5rem;
     background-color: white;
     padding: 2.5rem;
-    box-shadow: 1vh 1vh rgb(128, 126, 126);
+    box-shadow: 0 0 5px 1px grey;
     margin-bottom: 2vh;
 }
 .Header p{
